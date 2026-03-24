@@ -58,7 +58,6 @@ Three modes, auto-detected from your assets:
 - Next.js (App Router)
 - OpenAI `gpt-image-1` via `/v1/images/edits`
 - `remove.bg` for background removal
-- No database, no auth, no backend state — everything lives in the browser
 
 ## What it's not
 
