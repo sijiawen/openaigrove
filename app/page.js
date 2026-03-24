@@ -589,7 +589,7 @@ export default function FrameReady() {
     window._dlNode=nid=>{
       const node=nodes.find(n=>n.id===nid);
       if(!node?.gen){toast('Generate first','err');return;}
-      Object.assign(document.createElement('a'),{href:node.gen,download:`frameready-${nid}.png`}).click();
+      Object.assign(document.createElement('a'),{href:node.gen,download:`creatorgen-${nid}.png`}).click();
     };
 
     // ── BOOT ─────────────────────────────────────────────────────────────────
@@ -752,7 +752,7 @@ export default function FrameReady() {
 
       <div className="shell">
         <nav>
-          <div className="brand"><div className="brand-mark">🎬</div>FrameReady</div>
+          <div className="brand"><div className="brand-mark">🎬</div>Creatorgen</div>
           <span className="sep">/</span>
           <input className="proj-input" id="projName" defaultValue="Untitled Project" spellCheck="false"/>
           <div className="nav-end">

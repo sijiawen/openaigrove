@@ -1,8 +1,8 @@
-# FrameReady
+# Creatorgen
 
 Film pre-production is broken. Directors spend weeks explaining shots to everyone on the team, and what gets built on set rarely matches what was in their head. The usual fix is storyboards — but storyboards are either expensive (hire an artist) or fake (AI makes stuff up).
 
-FrameReady is different. You upload your actual assets — real actors, real wardrobe, real props, real sets — and composite them into storyboard frames. The AI edits your photos, not its imagination.
+Creatorgen is different. You upload your actual assets — real actors, real wardrobe, real props, real sets — and composite them into storyboard frames. The AI edits your photos, not its imagination.
 
 ## What it does
 
@@ -26,7 +26,7 @@ The output looks like a photo from set because it is a photo from set — just o
 
 ```bash
 git clone <repo>
-cd frameready
+cd creatorgen
 npm install
 ```
 
